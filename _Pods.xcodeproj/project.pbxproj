@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE729650EA8C37E0312FF361D8D1439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0F2E1E818735AC8A1252885CEC66CA24 /* ASAttachmentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C42F71ED412E61CC7AD751C8E06BA99 /* ASAttachmentCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ADB4C2DF52F82346DED2D8E167DA2FD /* UILabel+nameLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 538B0131B4A170B9482650BBED9998C2 /* UILabel+nameLabel.m */; };
+		1C1CB48382EC2F0FEB3B3D3937CAAE73 /* Pods-ASMessenger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C28F885F4CF37098802C5C2AA174B237 /* Pods-ASMessenger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB10F384B5C92D036974ECB3829B112 /* Pods-ASMessenger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 443F5A7D72FDE7CD4620110801B5FCDF /* Pods-ASMessenger_Example-dummy.m */; };
+		40364E32787F59C674D2218BAC456A98 /* ASMessenger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94E722F8309B333E037F6A953CAEFEA1 /* ASMessenger.bundle */; };
+		5A27CDB62AFFB909CFB9E582F7B66186 /* ASMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FC294D22FC39D10E357751381BC68F22 /* ASMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6445F3E6797FA2B2636746DA27F2CE41 /* Pods-ASMessenger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A29C56F0000F4D0144472C23F756EE /* Pods-ASMessenger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68298892FD008CE1AABCE9B5122EA4AF /* ASImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3952EE6563202FD460A2C943915FB7 /* ASImageCell.m */; };
+		77C0D39E2FAD11E2F91E789BC5024FD7 /* ASMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 274F4080BCFC99C60FDDF5C3DC6CE9D6 /* ASMessageCell.m */; };
+		7A4E587E2C4BEA04FEE744F488A9AEF6 /* ASTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D3BB6B921B54C19C38535A9AAC90C9 /* ASTextInputView.m */; };
+		88FAA20D090549FB9808F848F74096BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8C0FCAC498C842074B895FFD5E650D2B /* ASImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8726B40CEE131796985E058FB5D266D8 /* ASImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938CE8DF9BE0964FD548FA7683402B25 /* ASMessenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5836EB7DAD725349E8B2A5E110C083 /* ASMessenger-dummy.m */; };
+		94D5409E5C674AF7C5779D59AD2D481F /* ASAttachmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67413ACA0444DB0DE5DCC05929B8CF18 /* ASAttachmentCell.m */; };
+		95669DADAE83F507483F18221847CCB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9C5872A5D18CEE65A88B08C8035DFA36 /* UILabel+nameLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C19B9C2939AB671217E8EB1CA97D9AC9 /* UILabel+nameLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DCBAA88ADEA71F2390C0E666E62AD26 /* ASEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CE093C2F37A543C747A6721218A4B9 /* ASEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB2B37343ED3F0C706A8F1D3213431FE /* ASMessengerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E94E3C0BD53550333FFF2BE1AEEB92 /* ASMessengerViewController.m */; };
+		D16AD29F6A2CAC356EB71E180B61404B /* ASMessengerCellProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EE77664D84B2F1F714DEAECCCE5728 /* ASMessengerCellProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC8EF27AF296770D7762C8A88C6921D8 /* ASTextInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = A653A387C0E75480345DE59B9F59479E /* ASTextInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE49342B4B190C6E31D60C270260974 /* ASEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B86B3D59588871112E08539BF3AE0716 /* ASEntry.m */; };
+		EF642ADCEA11D95CE82794C3121F4F68 /* Pods-ASMessenger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F658B3C5563A445918FC957B873379 /* Pods-ASMessenger_Tests-dummy.m */; };
+		F409D3A8D841025195D4CFFBB585D825 /* ASMessenger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE53E8E45D43C41EA205D5AA3046C4D9 /* ASMessenger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD67F20AEE1AF0FBA0F0BFE2DE588E23 /* ASMessengerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE627CB4AEADF6E6F2E0EA49300E77F /* ASMessengerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F5F0BF6585160822D1EFA8F929822A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C1155E41FD7C5BF6EE4DBE1282C6AD7;
+			remoteInfo = ASMessenger;
+		};
+		25ADDD37F8EFE09A7DB4FD2E7B4A8467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321266327D23B2EC0D070DF4F061F322;
+			remoteInfo = "ASMessenger-ASMessenger";
+		};
+		3812361E8161E0E8DDEE618B84615E83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C1155E41FD7C5BF6EE4DBE1282C6AD7;
+			remoteInfo = ASMessenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F658B3C5563A445918FC957B873379 /* Pods-ASMessenger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASMessenger_Tests-dummy.m"; sourceTree = "<group>"; };
+		05E02459637FD7EA625197FE9CC56A1D /* Pods-ASMessenger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASMessenger_Tests-resources.sh"; sourceTree = "<group>"; };
+		09A0C40BE179CE212D49949210341C0F /* Pods-ASMessenger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASMessenger_Example-resources.sh"; sourceTree = "<group>"; };
+		12E94E3C0BD53550333FFF2BE1AEEB92 /* ASMessengerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASMessengerViewController.m; sourceTree = "<group>"; };
+		131C5FB80281432ED3A63408DEFA8F3F /* Pods-ASMessenger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASMessenger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		19EE77664D84B2F1F714DEAECCCE5728 /* ASMessengerCellProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASMessengerCellProtocol.h; sourceTree = "<group>"; };
+		1B3952EE6563202FD460A2C943915FB7 /* ASImageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASImageCell.m; sourceTree = "<group>"; };
+		274F4080BCFC99C60FDDF5C3DC6CE9D6 /* ASMessageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASMessageCell.m; sourceTree = "<group>"; };
+		2789453598FE09160ACC01A23CA10CE4 /* Pods-ASMessenger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASMessenger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		320450D2F73F46807FF0195EF4EC0DB1 /* Pods_ASMessenger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASMessenger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3792FA6C1961A4C15E2DD40A17E95E /* Pods-ASMessenger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASMessenger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		443F5A7D72FDE7CD4620110801B5FCDF /* Pods-ASMessenger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASMessenger_Example-dummy.m"; sourceTree = "<group>"; };
+		486B5CDC2015059042DA65925D05C369 /* Pods-ASMessenger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASMessenger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		538B0131B4A170B9482650BBED9998C2 /* UILabel+nameLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+nameLabel.m"; sourceTree = "<group>"; };
+		5C42F71ED412E61CC7AD751C8E06BA99 /* ASAttachmentCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASAttachmentCell.h; sourceTree = "<group>"; };
+		60A29C56F0000F4D0144472C23F756EE /* Pods-ASMessenger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASMessenger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		61C9F79AED90EAE9419885EEF356F743 /* Pods-ASMessenger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASMessenger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61CE093C2F37A543C747A6721218A4B9 /* ASEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASEntry.h; sourceTree = "<group>"; };
+		67413ACA0444DB0DE5DCC05929B8CF18 /* ASAttachmentCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASAttachmentCell.m; sourceTree = "<group>"; };
+		7150BDEEB6D33733B260580A4321E30A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F078BB86730B896E8D32616CE82AB04 /* ASMessenger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASMessenger.xcconfig; sourceTree = "<group>"; };
+		85808CF3C22C69338486ECDBEC8B450E /* ASMessenger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ASMessenger.modulemap; sourceTree = "<group>"; };
+		866594DB474C04C98D4D85A579168F87 /* Pods_ASMessenger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASMessenger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86ADD93F211607A0A314930B518A8188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8726B40CEE131796985E058FB5D266D8 /* ASImageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASImageCell.h; sourceTree = "<group>"; };
+		93959024E04F59B3414BDC04B3FC1C3C /* Pods-ASMessenger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ASMessenger_Tests.modulemap"; sourceTree = "<group>"; };
+		94E722F8309B333E037F6A953CAEFEA1 /* ASMessenger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASMessenger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9859731F697AFA976559C3039902F1C4 /* Pods-ASMessenger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ASMessenger_Example.modulemap"; sourceTree = "<group>"; };
+		A1A70B787F4C10D288D48A8C0C9E17A3 /* Pods-ASMessenger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASMessenger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A460F700D7BCC5B2C19A54A105D667D3 /* Pods-ASMessenger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASMessenger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A653A387C0E75480345DE59B9F59479E /* ASTextInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASTextInputView.h; sourceTree = "<group>"; };
+		A84681F590869DC8725119A615182A67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86B3D59588871112E08539BF3AE0716 /* ASEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASEntry.m; sourceTree = "<group>"; };
+		B8D3BB6B921B54C19C38535A9AAC90C9 /* ASTextInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASTextInputView.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE53E8E45D43C41EA205D5AA3046C4D9 /* ASMessenger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASMessenger-umbrella.h"; sourceTree = "<group>"; };
+		C19B9C2939AB671217E8EB1CA97D9AC9 /* UILabel+nameLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+nameLabel.h"; sourceTree = "<group>"; };
+		C28F885F4CF37098802C5C2AA174B237 /* Pods-ASMessenger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASMessenger_Example-umbrella.h"; sourceTree = "<group>"; };
+		C422A3DC754F4262D0314393BE99D53F /* Pods-ASMessenger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASMessenger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D09B1F4CB6292AB8637BDBC263E3B766 /* ASMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E06700885796BA23A4354EB79670C5 /* Pods-ASMessenger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASMessenger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB46BDE8C69B09BDBBA34196F88B7524 /* Pods-ASMessenger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASMessenger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5836EB7DAD725349E8B2A5E110C083 /* ASMessenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASMessenger-dummy.m"; sourceTree = "<group>"; };
+		F60DAF527516C7EF5660CD138BEF396A /* ASMessenger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASMessenger-prefix.pch"; sourceTree = "<group>"; };
+		FC294D22FC39D10E357751381BC68F22 /* ASMessageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASMessageCell.h; sourceTree = "<group>"; };
+		FEE627CB4AEADF6E6F2E0EA49300E77F /* ASMessengerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASMessengerViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652D950EAC658197D5335AADA4D43E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE729650EA8C37E0312FF361D8D1439 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C670EDB7FA958C91EA7F2E74CFA615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FAA20D090549FB9808F848F74096BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A5F02025A2D6340153D1BC8AD0CB3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC02E89E0EC09B938A802CEB5D97C836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95669DADAE83F507483F18221847CCB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030A0A6B93F723F29FC5131D8BE585F4 /* Pods-ASMessenger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A84681F590869DC8725119A615182A67 /* Info.plist */,
+				93959024E04F59B3414BDC04B3FC1C3C /* Pods-ASMessenger_Tests.modulemap */,
+				C422A3DC754F4262D0314393BE99D53F /* Pods-ASMessenger_Tests-acknowledgements.markdown */,
+				61C9F79AED90EAE9419885EEF356F743 /* Pods-ASMessenger_Tests-acknowledgements.plist */,
+				04F658B3C5563A445918FC957B873379 /* Pods-ASMessenger_Tests-dummy.m */,
+				131C5FB80281432ED3A63408DEFA8F3F /* Pods-ASMessenger_Tests-frameworks.sh */,
+				05E02459637FD7EA625197FE9CC56A1D /* Pods-ASMessenger_Tests-resources.sh */,
+				60A29C56F0000F4D0144472C23F756EE /* Pods-ASMessenger_Tests-umbrella.h */,
+				DB46BDE8C69B09BDBBA34196F88B7524 /* Pods-ASMessenger_Tests.debug.xcconfig */,
+				486B5CDC2015059042DA65925D05C369 /* Pods-ASMessenger_Tests.release.xcconfig */,
+			);
+			name = "Pods-ASMessenger_Tests";
+			path = "Target Support Files/Pods-ASMessenger_Tests";
+			sourceTree = "<group>";
+		};
+		15FC7816D4E144F799ED263CE6B2CA85 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1C70089723671DD6429FE263B157EC43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A110885F61A1BAF5D659FF1F8CD74BC /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2E6D196712C84AE735A3ABE7C0FF5AB0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FABBF12BF163D8AEFD7C644300FF876 /* ASMessenger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		57AC95FFA9CB98994BB9FAE33956E642 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				980667EEC49928516BDE13BC9176AA25 /* Pods-ASMessenger_Example */,
+				030A0A6B93F723F29FC5131D8BE585F4 /* Pods-ASMessenger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A110885F61A1BAF5D659FF1F8CD74BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				15FC7816D4E144F799ED263CE6B2CA85 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		6ECF55D4E89B37ADD74302B3EBB18BF7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8F65A776D9A0D65284A01B3B031AB9CB /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				2E6D196712C84AE735A3ABE7C0FF5AB0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FDB1C39641A8D4B0BC5AD60672C39AED /* Products */,
+				57AC95FFA9CB98994BB9FAE33956E642 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FABBF12BF163D8AEFD7C644300FF876 /* ASMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				6ECF55D4E89B37ADD74302B3EBB18BF7 /* Pod */,
+				1C70089723671DD6429FE263B157EC43 /* Resources */,
+				AA900B43585D170BE957F3236EAB3D54 /* Support Files */,
+			);
+			name = ASMessenger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8F65A776D9A0D65284A01B3B031AB9CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C42F71ED412E61CC7AD751C8E06BA99 /* ASAttachmentCell.h */,
+				67413ACA0444DB0DE5DCC05929B8CF18 /* ASAttachmentCell.m */,
+				61CE093C2F37A543C747A6721218A4B9 /* ASEntry.h */,
+				B86B3D59588871112E08539BF3AE0716 /* ASEntry.m */,
+				8726B40CEE131796985E058FB5D266D8 /* ASImageCell.h */,
+				1B3952EE6563202FD460A2C943915FB7 /* ASImageCell.m */,
+				FC294D22FC39D10E357751381BC68F22 /* ASMessageCell.h */,
+				274F4080BCFC99C60FDDF5C3DC6CE9D6 /* ASMessageCell.m */,
+				19EE77664D84B2F1F714DEAECCCE5728 /* ASMessengerCellProtocol.h */,
+				FEE627CB4AEADF6E6F2E0EA49300E77F /* ASMessengerViewController.h */,
+				12E94E3C0BD53550333FFF2BE1AEEB92 /* ASMessengerViewController.m */,
+				A653A387C0E75480345DE59B9F59479E /* ASTextInputView.h */,
+				B8D3BB6B921B54C19C38535A9AAC90C9 /* ASTextInputView.m */,
+				C19B9C2939AB671217E8EB1CA97D9AC9 /* UILabel+nameLabel.h */,
+				538B0131B4A170B9482650BBED9998C2 /* UILabel+nameLabel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		980667EEC49928516BDE13BC9176AA25 /* Pods-ASMessenger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				86ADD93F211607A0A314930B518A8188 /* Info.plist */,
+				9859731F697AFA976559C3039902F1C4 /* Pods-ASMessenger_Example.modulemap */,
+				D7E06700885796BA23A4354EB79670C5 /* Pods-ASMessenger_Example-acknowledgements.markdown */,
+				A1A70B787F4C10D288D48A8C0C9E17A3 /* Pods-ASMessenger_Example-acknowledgements.plist */,
+				443F5A7D72FDE7CD4620110801B5FCDF /* Pods-ASMessenger_Example-dummy.m */,
+				3A3792FA6C1961A4C15E2DD40A17E95E /* Pods-ASMessenger_Example-frameworks.sh */,
+				09A0C40BE179CE212D49949210341C0F /* Pods-ASMessenger_Example-resources.sh */,
+				C28F885F4CF37098802C5C2AA174B237 /* Pods-ASMessenger_Example-umbrella.h */,
+				A460F700D7BCC5B2C19A54A105D667D3 /* Pods-ASMessenger_Example.debug.xcconfig */,
+				2789453598FE09160ACC01A23CA10CE4 /* Pods-ASMessenger_Example.release.xcconfig */,
+			);
+			name = "Pods-ASMessenger_Example";
+			path = "Target Support Files/Pods-ASMessenger_Example";
+			sourceTree = "<group>";
+		};
+		AA900B43585D170BE957F3236EAB3D54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85808CF3C22C69338486ECDBEC8B450E /* ASMessenger.modulemap */,
+				7F078BB86730B896E8D32616CE82AB04 /* ASMessenger.xcconfig */,
+				EA5836EB7DAD725349E8B2A5E110C083 /* ASMessenger-dummy.m */,
+				F60DAF527516C7EF5660CD138BEF396A /* ASMessenger-prefix.pch */,
+				BE53E8E45D43C41EA205D5AA3046C4D9 /* ASMessenger-umbrella.h */,
+				7150BDEEB6D33733B260580A4321E30A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ASMessenger";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FDB1C39641A8D4B0BC5AD60672C39AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94E722F8309B333E037F6A953CAEFEA1 /* ASMessenger.bundle */,
+				D09B1F4CB6292AB8637BDBC263E3B766 /* ASMessenger.framework */,
+				320450D2F73F46807FF0195EF4EC0DB1 /* Pods_ASMessenger_Example.framework */,
+				866594DB474C04C98D4D85A579168F87 /* Pods_ASMessenger_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01FB9D8282F905AFE65BC061E309189A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6445F3E6797FA2B2636746DA27F2CE41 /* Pods-ASMessenger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4B135F31778AEF86F564745AECAB0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2E1E818735AC8A1252885CEC66CA24 /* ASAttachmentCell.h in Headers */,
+				9DCBAA88ADEA71F2390C0E666E62AD26 /* ASEntry.h in Headers */,
+				8C0FCAC498C842074B895FFD5E650D2B /* ASImageCell.h in Headers */,
+				5A27CDB62AFFB909CFB9E582F7B66186 /* ASMessageCell.h in Headers */,
+				F409D3A8D841025195D4CFFBB585D825 /* ASMessenger-umbrella.h in Headers */,
+				D16AD29F6A2CAC356EB71E180B61404B /* ASMessengerCellProtocol.h in Headers */,
+				FD67F20AEE1AF0FBA0F0BFE2DE588E23 /* ASMessengerViewController.h in Headers */,
+				DC8EF27AF296770D7762C8A88C6921D8 /* ASTextInputView.h in Headers */,
+				9C5872A5D18CEE65A88B08C8035DFA36 /* UILabel+nameLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD18F0078F7EC3EC34957C36CBB3FF45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1CB48382EC2F0FEB3B3D3937CAAE73 /* Pods-ASMessenger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		321266327D23B2EC0D070DF4F061F322 /* ASMessenger-ASMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEEA21047A0FCE470222910BB30E9B5 /* Build configuration list for PBXNativeTarget "ASMessenger-ASMessenger" */;
+			buildPhases = (
+				7311568C36F0AB339CBFA355978AE28E /* Sources */,
+				A8A5F02025A2D6340153D1BC8AD0CB3F /* Frameworks */,
+				E88FDBD51DABD82CB3A2F9F77ACAE80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASMessenger-ASMessenger";
+			productName = "ASMessenger-ASMessenger";
+			productReference = 94E722F8309B333E037F6A953CAEFEA1 /* ASMessenger.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3421359D59A4CDF02176620CCF02329D /* Pods-ASMessenger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AAB6CBEF90DFBB63A2477E2DC81A56 /* Build configuration list for PBXNativeTarget "Pods-ASMessenger_Example" */;
+			buildPhases = (
+				48B5EBCCF68C0750197BF504C225ACE2 /* Sources */,
+				92C670EDB7FA958C91EA7F2E74CFA615 /* Frameworks */,
+				AD18F0078F7EC3EC34957C36CBB3FF45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C6D838C28A8F3546C0B52DBD4EF7B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASMessenger_Example";
+			productName = "Pods-ASMessenger_Example";
+			productReference = 320450D2F73F46807FF0195EF4EC0DB1 /* Pods_ASMessenger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F0206CF76840C753A77C76AAB76B212 /* Pods-ASMessenger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB29633E95C9F224DB234F191CCB223B /* Build configuration list for PBXNativeTarget "Pods-ASMessenger_Tests" */;
+			buildPhases = (
+				87FE1A765D156CF0E8C2BE29CA04BD13 /* Sources */,
+				AC02E89E0EC09B938A802CEB5D97C836 /* Frameworks */,
+				01FB9D8282F905AFE65BC061E309189A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D46607B01F36A14D12CF939A0F4EDA02 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASMessenger_Tests";
+			productName = "Pods-ASMessenger_Tests";
+			productReference = 866594DB474C04C98D4D85A579168F87 /* Pods_ASMessenger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C1155E41FD7C5BF6EE4DBE1282C6AD7 /* ASMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890E626AB22F2FE83382E03F6F2A995A /* Build configuration list for PBXNativeTarget "ASMessenger" */;
+			buildPhases = (
+				464CD1DB84A0E69B3EDF079BDFC9C8E3 /* Sources */,
+				652D950EAC658197D5335AADA4D43E04 /* Frameworks */,
+				52FC18EB3CD5A05F968CC5016A596777 /* Resources */,
+				6E4B135F31778AEF86F564745AECAB0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FA36538921E043FD68642ECCD14706 /* PBXTargetDependency */,
+			);
+			name = ASMessenger;
+			productName = ASMessenger;
+			productReference = D09B1F4CB6292AB8637BDBC263E3B766 /* ASMessenger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FDB1C39641A8D4B0BC5AD60672C39AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C1155E41FD7C5BF6EE4DBE1282C6AD7 /* ASMessenger */,
+				321266327D23B2EC0D070DF4F061F322 /* ASMessenger-ASMessenger */,
+				3421359D59A4CDF02176620CCF02329D /* Pods-ASMessenger_Example */,
+				6F0206CF76840C753A77C76AAB76B212 /* Pods-ASMessenger_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FC18EB3CD5A05F968CC5016A596777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40364E32787F59C674D2218BAC456A98 /* ASMessenger.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E88FDBD51DABD82CB3A2F9F77ACAE80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464CD1DB84A0E69B3EDF079BDFC9C8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D5409E5C674AF7C5779D59AD2D481F /* ASAttachmentCell.m in Sources */,
+				EEE49342B4B190C6E31D60C270260974 /* ASEntry.m in Sources */,
+				68298892FD008CE1AABCE9B5122EA4AF /* ASImageCell.m in Sources */,
+				77C0D39E2FAD11E2F91E789BC5024FD7 /* ASMessageCell.m in Sources */,
+				938CE8DF9BE0964FD548FA7683402B25 /* ASMessenger-dummy.m in Sources */,
+				AB2B37343ED3F0C706A8F1D3213431FE /* ASMessengerViewController.m in Sources */,
+				7A4E587E2C4BEA04FEE744F488A9AEF6 /* ASTextInputView.m in Sources */,
+				1ADB4C2DF52F82346DED2D8E167DA2FD /* UILabel+nameLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B5EBCCF68C0750197BF504C225ACE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB10F384B5C92D036974ECB3829B112 /* Pods-ASMessenger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7311568C36F0AB339CBFA355978AE28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FE1A765D156CF0E8C2BE29CA04BD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF642ADCEA11D95CE82794C3121F4F68 /* Pods-ASMessenger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FA36538921E043FD68642ECCD14706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ASMessenger-ASMessenger";
+			target = 321266327D23B2EC0D070DF4F061F322 /* ASMessenger-ASMessenger */;
+			targetProxy = 25ADDD37F8EFE09A7DB4FD2E7B4A8467 /* PBXContainerItemProxy */;
+		};
+		D46607B01F36A14D12CF939A0F4EDA02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASMessenger;
+			target = 9C1155E41FD7C5BF6EE4DBE1282C6AD7 /* ASMessenger */;
+			targetProxy = 0F5F0BF6585160822D1EFA8F929822A8 /* PBXContainerItemProxy */;
+		};
+		D7C6D838C28A8F3546C0B52DBD4EF7B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASMessenger;
+			target = 9C1155E41FD7C5BF6EE4DBE1282C6AD7 /* ASMessenger */;
+			targetProxy = 3812361E8161E0E8DDEE618B84615E83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3421B8E9F37E7FD267FD35E19F0A53DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2789453598FE09160ACC01A23CA10CE4 /* Pods-ASMessenger_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASMessenger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASMessenger_Example/Pods-ASMessenger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASMessenger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35BCF74F2E218CD6348A348A757E1A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F078BB86730B896E8D32616CE82AB04 /* ASMessenger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASMessenger/ASMessenger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASMessenger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASMessenger/ASMessenger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASMessenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		667CB7CB39A2C3E9F9EB7421510CE054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F078BB86730B896E8D32616CE82AB04 /* ASMessenger.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASMessenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		74536C17EE5D31AB0667BC649C0B45B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F078BB86730B896E8D32616CE82AB04 /* ASMessenger.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASMessenger/ASMessenger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASMessenger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASMessenger/ASMessenger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASMessenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8ABC3F7858E29AE0CD75D32FDD0048A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB46BDE8C69B09BDBBA34196F88B7524 /* Pods-ASMessenger_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASMessenger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASMessenger_Tests/Pods-ASMessenger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASMessenger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AE7B8D0639C5E71E4B9A25D6D8E98173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F078BB86730B896E8D32616CE82AB04 /* ASMessenger.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ASMessenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B498FC653A483A7644126875D73A8C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486B5CDC2015059042DA65925D05C369 /* Pods-ASMessenger_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASMessenger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASMessenger_Tests/Pods-ASMessenger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASMessenger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E42702C34FB261CA74F8D69261524700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A460F700D7BCC5B2C19A54A105D667D3 /* Pods-ASMessenger_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASMessenger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASMessenger_Example/Pods-ASMessenger_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASMessenger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890E626AB22F2FE83382E03F6F2A995A /* Build configuration list for PBXNativeTarget "ASMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BCF74F2E218CD6348A348A757E1A30 /* Debug */,
+				74536C17EE5D31AB0667BC649C0B45B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEEA21047A0FCE470222910BB30E9B5 /* Build configuration list for PBXNativeTarget "ASMessenger-ASMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667CB7CB39A2C3E9F9EB7421510CE054 /* Debug */,
+				AE7B8D0639C5E71E4B9A25D6D8E98173 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AAB6CBEF90DFBB63A2477E2DC81A56 /* Build configuration list for PBXNativeTarget "Pods-ASMessenger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42702C34FB261CA74F8D69261524700 /* Debug */,
+				3421B8E9F37E7FD267FD35E19F0A53DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB29633E95C9F224DB234F191CCB223B /* Build configuration list for PBXNativeTarget "Pods-ASMessenger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABC3F7858E29AE0CD75D32FDD0048A4 /* Debug */,
+				B498FC653A483A7644126875D73A8C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

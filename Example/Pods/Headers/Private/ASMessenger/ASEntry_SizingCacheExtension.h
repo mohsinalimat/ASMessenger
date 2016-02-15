@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Entry Helpers/ASEntry_SizingCacheExtension.h

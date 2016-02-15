@@ -1,0 +1,16 @@
+PODS:
+  - ASMessenger (0.1.0)
+
+DEPENDENCIES:
+  - ASMessenger (from `../`)
+
+EXTERNAL SOURCES:
+  ASMessenger:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASMessenger: c42afd774223d3c278f3c7f28b06df54ac18bec0
+
+PODFILE CHECKSUM: eae842327bdb983b5ac311aebf4e856e258da97c
+
+COCOAPODS: 1.0.0.beta.3
